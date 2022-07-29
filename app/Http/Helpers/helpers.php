@@ -19,6 +19,8 @@ function terbilang($angka)
         $terbilang = terbilang($angka / 10) . ' puluh' . terbilang($angka % 10);
     } elseif ($angka < 200) {
         $terbilang = ' seratus' . terbilang($angka - 100);
+    } elseif ($angka < 1000) {
+        $terbilang = terbilang($angka / 100) . ' ratus' . terbilang($angka % 100);
     }
 
     return $terbilang;
