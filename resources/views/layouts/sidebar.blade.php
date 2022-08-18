@@ -7,7 +7,7 @@
                 <img src="{{ asset('AdminLTE-2/dist/img/user2-160x160.jpg') }}" class="img-circle" alt="User Image">
             </div>
             <div class="pull-left info">
-                <p>Alexander Pierce</p>
+                <p>Giovanni Kurniawan</p>
                 <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
             </div>
         </div>
@@ -29,54 +29,55 @@
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="{{ route('produk.index') }}">
                     <i class="fa fa-cubes" aria-hidden="true"></i> <span>Produk</span>
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="{{ route('member.index') }}">
                     <i class="fa fa-id-card" aria-hidden="true"></i> <span>Member</span>
                 </a>
             </li>
             <li>
-                <a href="#">
-                    <i class="fa fa-truck" aria-hidden="true"></i> <span>Suplier</span>
+                <a href="{{ route('supplier.index') }}">
+                    <i class="fa fa-truck" aria-hidden="true"></i> <span>Supplier</span>
+                </a>
+            </li>
+            <li class="header">TRANSAKSI</li>
+            <li>
+                <a href="{{ route('pengeluaran.index') }}">
+                    <i class="fa fa-money" aria-hidden="true"></i> <span>Pengeluaran</span>
                 </a>
             </li>
             <li>
-                <a href="#">
-                    <i class="fa fa-money" aria-hidden="true"></i> <span>Transaksi</span>
-                </a>
-            </li>
-            <li>
-                <a href="#">
+                <a href="{{ route('pembelian.index') }}">
                     <i class="fa fa-download" aria-hidden="true"></i> <span>Pembelian</span>
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="{{ route('penjualan.index') }}">
                     <i class="fa fa-upload" aria-hidden="true"></i> <span>Penjualan</span>
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="{{ route('transaksi.index') }}">
                     <i class="fa fa-cart-arrow-down" aria-hidden="true"></i> <span>Transaksi Lama</span>
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="{{ route('transaksi.baru') }}">
                     <i class="fa fa-cart-arrow-down" aria-hidden="true"></i> <span>Transaksi Baru</span>
                 </a>
             </li>
             <li class="header">REPORT</li>
             <li>
-                <a href="#">
-                    <i class="fa fa-file-pdf-o" aria-hidden="true""></i> <span>Laporan</span>
+                <a href="{{ route('laporan.index') }}">
+                    <i class="fa fa-file-pdf-o" aria-hidden="true"></i> <span>Laporan</span>
                 </a>
             </li>
             <li class="header">SYSTEM</li>
             <li>
-                <a href="#">
+                <a href="{{ route('user.index') }}">
                     <i class="fa fa-user" aria-hidden="true"></i> <span>User</span>
                 </a>
             </li>
